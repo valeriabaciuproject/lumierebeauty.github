@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière | Magazin cosmetică</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Lumi<span>ère</span></a>
+
+      <nav class="menu">
+        <a href="index.html">Acasă</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="rutina.html">Ghid rutină</a>
+        <a href="despre.html">Despre</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="cart-link" href="cos.html">
+          Coș <span class="cart-count">0</span>
+        </a>
+        <button class="burger" aria-label="Meniu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div>
+        <p class="eyebrow">Cosmetică & îngrijire premium</p>
+        <h1>Frumusețe naturală, rutină simplă.</h1>
+        <p>
+          Descoperă produse pentru ten, păr, corp și machiaj, alese pentru
+          eficiență, calitate și un design elegant.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="catalog.html">Vezi catalogul</a>
+          <a class="btn light" href="despre.html">Despre brand</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img
+          src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1000&q=80"
+          alt="Produse cosmetice"
+        >
+        <div class="badge">Livrare rapidă • Produse alese</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Categories ===== -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Categorii</p>
+          <h2>Alege rutina potrivită</h2>
+        </div>
+        <p>O rutină corectă de îngrijire este cheia unui ten sănătos și luminos.</p>
+      </div>
+
+      <div class="grid-4">
+
+        <a class="card category" href="catalog.html?cat=ten">
+          <img
+            src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80"
+            alt="Îngrijire ten"
+          >
+          <div class="card-body">
+            <h3>Îngrijire ten</h3>
+            <p>Seruri, creme, SPF, curățare.</p>
+          </div>
+        </a>
+
+        <a class="card category" href="catalog.html">
+          <img
+            src="https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=800&q=80"
+            alt="Îngrijire păr"
+          >
+          <div class="card-body">
+            <h3>Îngrijire păr</h3>
+            <p>Șampon, mască, tratamente.</p>
+          </div>
+        </a>
+
+        <a class="card category" href="catalog.html">
+          <img
+            src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&q=80"
+            alt="Îngrijire corp"
+          >
+          <div class="card-body">
+            <h3>Îngrijire corp</h3>
+            <p>Loțiuni, uleiuri, scruburi.</p>
+          </div>
+        </a>
+
+        <a class="card category" href="catalog.html">
+          <img
+            src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+            alt="Machiaj"
+          >
+          <div class="card-body">
+            <h3>Machiaj</h3>
+            <p>Texturi fine și culori naturale.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Promo Strip ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="promo-strip">
+
+        <div>
+          <p class="eyebrow">Colecție nouă</p>
+          <h2>Beauty essentials pentru o rutină completă</h2>
+          <p class="muted">
+            Am adăugat mai multe produse premium în catalog: seruri, creme, SPF,
+            tratamente pentru păr, produse de corp și machiaj elegant.
+          </p>
+        </div>
+
+        <a class="btn dark" href="catalog.html">Descoperă colecția</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Featured Products ===== -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Recomandate</p>
+          <h2>Produse populare</h2>
+        </div>
+        <a class="btn light" href="catalog.html">Toate produsele</a>
+      </div>
+
+      <div id="featuredProducts" class="grid-4"></div>
+
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div>
+        <h3 class="logo">Lumi<span>ère</span></h3>
+        <p>Magazin online de cosmetică și produse de îngrijire pentru o rutină simplă, elegantă și eficientă.</p>
+      </div>
+
+      <div>
+        <h4>Pagini</h4>
+        <p><a href="catalog.html">Catalog</a></p>
+        <p><a href="cos.html">Coș</a></p>
+        <p><a href="checkout.html">Checkout</a></p>
+      </div>
+
+      <div>
+        <h4>Categorii</h4>
+        <p>Ten</p>
+        <p>Păr</p>
+        <p>Corp</p>
+        <p>Machiaj</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Chișinău, Moldova</p>
+        <p>contact@lumiere.md</p>
+        <p>+373 60 000 000</p>
+      </div>
+
+    </div>
+
+    <div class="container copy">
+      © 2026 Lumière. Toate drepturile rezervate.
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast"></div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
